@@ -1,0 +1,19 @@
+@import './vars.scss';
+
+@mixin actionBttn($type: 'outline') {
+	width: 146px;
+	height: 34px;
+	border-radius: 17px;
+	cursor: pointer;
+
+	@if ($type == 'outline') {
+		background-color: #fff;
+		border: 1px solid;
+	}
+
+	@if ($type == 'filled') {
+		color: #fff;
+		background-color: $global-colors-pink;
+		border: 1px solid $global-colors-pink;
+	}
+}

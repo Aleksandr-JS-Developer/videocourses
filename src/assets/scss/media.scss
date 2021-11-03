@@ -1,0 +1,13 @@
+// mobile
+@mixin mobile {
+	html.mobile & {
+		@content;
+	}
+}
+
+// desktop
+@mixin desktop {
+	html.desktop & {
+		@content;
+	}
+}
