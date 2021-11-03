@@ -1,6 +1,8 @@
 # Videocourses
 (vue.js, vue-cli, vuex, current-device, scss)
 
+## [live](https://aleksandr-js-developer.github.io/videocourses/)
+
 ## Project setup
 ```
 npm install
