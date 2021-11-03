@@ -1,4 +1,5 @@
-# app
+# Videocourses
+(vue.js, vue-cli, vuex, current-device, scss)
 
 ## Project setup
 ```
